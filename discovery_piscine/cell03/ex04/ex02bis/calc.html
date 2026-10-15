@@ -2,17 +2,20 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>C3.2 Calculator</title>
-    <!-- เชื่อมโยงไฟล์ CSS -->
+    <title>C4.2 Calculator</title>
+    <!-- เชื่อมโยงไฟล์ CSS[cite: 10, 11] -->
     <link rel="stylesheet" href="calc.css">
+
+    <!-- เพิ่มไลบรารี jQuery เข้ามาในโปรเจกต์ -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
 
     <div class="calculator">
-        <!-- ช่องกรอกตัวเลขซ้าย -->
+        <!-- ช่องกรอกตัวเลขซ้าย[cite: 11] -->
         <input type="text" id="left-member" placeholder="ตัวเลขซ้าย">
 
-        <!-- ช่องเลือกเครื่องหมายคำนวณ -->
+        <!-- ช่องเลือกเครื่องหมายคำนวณ[cite: 11] -->
         <select id="operator">
             <option value="+">+</option>
             <option value="-">-</option>
@@ -21,14 +24,14 @@
             <option value="%">%</option>
         </select>
 
-        <!-- ช่องกรอกตัวเลขขวา -->
+        <!-- ช่องกรอกตัวเลขขวา[cite: 11] -->
         <input type="text" id="right-member" placeholder="ตัวเลขขวา">
 
-        <!-- ปุ่มกดคำนวณ -->
+        <!-- ปุ่มกดคำนวณ[cite: 11] -->
         <input type="submit" id="btn" value="Try me!">
     </div>
 
---    <!-- เชื่อมโยงไฟล์ JavaScript -->
+    <!-- เชื่อมโยงไฟล์ JavaScript[cite: 11] -->
     <script src="calc.js"></script>
 </body>
 </html>
