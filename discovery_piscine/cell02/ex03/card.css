@@ -1,0 +1,95 @@
+/* ตั้งค่าพื้นฐานหน้าเว็บให้อยู่กึ่งกลางและดูสบายตา */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* หัวข้อหน้าเว็บ */
+.page-title {
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* โครงสร้างหลักของการ์ด (Card Container) */
+.card {
+    background-color: #ffffff;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงารอบการ์ด */
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* ส่วนรูปภาพโปรไฟล์ */
+.card-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* ป้องกันรูปภาพยืดผิดสัดส่วน */
+    display: block;
+}
+
+/* ส่วนเนื้อหาข้อความ */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #111;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.location {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* ตารางไร้เส้นขอบสำหรับจัดเรียงไอคอนโซเชียล */
+.social-table {
+    margin: 0 auto;
+    border-collapse: collapse; /* ยุบเส้นขอบตารางให้หายไป */
+}
+
+.social-table td {
+    padding: 0 10px;
+}
+
+.social-table a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.social-table a:hover {
+    color: #007bff;
+}
+
+/* ปุ่ม Contact ด้านล่างสุด */
+.contact-btn {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact-btn:hover {
+    background-color: #333333;
+}

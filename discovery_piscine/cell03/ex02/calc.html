@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>C3.2 Calculator</title>
+    <!-- เชื่อมโยงไฟล์ CSS -->
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <!-- ช่องกรอกตัวเลขซ้าย -->
+        <input type="text" id="left-member" placeholder="ตัวเลขซ้าย">
+
+        <!-- ช่องเลือกเครื่องหมายคำนวณ -->
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+
+        <!-- ช่องกรอกตัวเลขขวา -->
+        <input type="text" id="right-member" placeholder="ตัวเลขขวา">
+
+        <!-- ปุ่มกดคำนวณ -->
+        <input type="submit" id="btn" value="Try me!">
+    </div>
+
+--    <!-- เชื่อมโยงไฟล์ JavaScript -->
+    <script src="calc.js"></script>
+</body>
+</html>

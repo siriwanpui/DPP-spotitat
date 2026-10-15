@@ -1,0 +1,28 @@
+/* ตั้งค่าพื้นฐานให้หน้าเว็บจัดกึ่งกลางและดูสบายตา */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    transition: background-color 0.5s ease; /* เพิ่มอนิเมชันตอนเปลี่ยนสีให้เนียนขึ้น */
+    background-color: #ffffff; /* สีเริ่มต้นเป็นสีขาว */
+}
+
+/* ตกแต่งปุ่มให้สวยงาม */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+}

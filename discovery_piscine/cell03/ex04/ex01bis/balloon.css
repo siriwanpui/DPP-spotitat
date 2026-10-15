@@ -1,0 +1,19 @@
+/* จัดหน้าเว็บให้ลูกโป่งอยู่ตรงกลาง */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* กำหนดขนาดเริ่มต้นและรูปทรงลูกโป่งตามโจทย์ */
+#balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red; /* สีเริ่มต้นเป็นสีแดง */
+    border-radius: 50%;   /* ทำให้ div กลายเป็นวงกลมสมบูรณ์ */
+    cursor: pointer;
+    transition: width 0.1s ease, height 0.1s ease, background-color 0.1s ease;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Basics</title>
+ <style>
+        body {
+            /* A pink background */
+            background-color: pink; 
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* A title -so bigger- in white, centered */
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 40px;
+        }
+
+        /* Container to keep the two shop items side-by-side */
+        .shop-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+
+        .shop-item {
+            text-align: center;
+        }
+
+        .shop-item img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .shop-item a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .shop-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* A horizontal line that separates the page across the window width */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        /* Aligned on the right, italic, monospace font for copyright */
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- Centered big white title containing at least 1 special character (!) -->
+    <h1>Online Marketplace!</h1>
+
+    <!-- Two images side by side representing online shops with matching links underneath -->
+    <div class="shop-container">
+        <div class="shop-item">
+            <img src="laz.jpeg" alt="Shop A">
+            <a href="https://www.lazada.co.th/" target="_blank">Visit Lazada</a>
+        </div>
+        <div class="shop-item">
+            <img src="shopee.jpeg" alt="Shop B">
+            <a href="https://shopee.co.th/" target="_blank">Visit Shopee</a>
+        </div>
+    </div>
+
+    <!-- Horizontal separator line -->
+    <hr>
+
+    <!-- Footer containing copyright symbol, your login, and the current year -->
+    <p class="footer">&copy; spotitat 2026</p>
+
+
+</body>
+
+
+
+</html>
